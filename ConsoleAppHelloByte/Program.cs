@@ -41,7 +41,7 @@ namespace ConsoleAppHelloByte
                 Console.WriteLine("Press x to exit program or c to continue converting");
                 char _xOrc = Console.ReadKey().KeyChar;
                 if (Char.ToLower(_xOrc) == 'x') { IsContinue = false;  }
-                
+                Console.WriteLine();
 
             }
 
